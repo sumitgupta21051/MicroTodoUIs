@@ -17,7 +17,7 @@ env:
   ACR_LOGIN_SERVER: azureaksregistry1.azurecr.io
 
 jobs:
-  build & push:  #job id
+  build_and_push:  #job id
     name: build and push #job name
     runs-on: ubuntu-latest #runner and tag dena padta h
     
