@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: get-tasks
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: get-tasks
+  template:
+    metadata:
+      labels:
+        app: get-tasks
+    spec:
+      containers:
+      - name: get-tasks
+        image: azureaksregistry1.azurecr.io/todo-ui:v1
+        ports:
+        - containerPort: 8000
