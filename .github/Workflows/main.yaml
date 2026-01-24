@@ -1,5 +1,4 @@
 name: Build & Push Docker Image to ACR
- 
 on:
   workflow_dispatch:
   push:
