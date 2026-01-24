@@ -8,4 +8,4 @@ spec:
     app: micro-UI
   ports:
     - port: 80
-      targetPort: 8000
+      targetPort: 80
