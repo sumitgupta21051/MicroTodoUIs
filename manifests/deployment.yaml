@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: micro-UI
+  name: micro-ui
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: micro-UI
+      app: micro-ui
   template:
     metadata:
       labels:
-        app: micro-UI
+        app: micro-ui
     spec:
       containers:
-      - name: micro-UI
+      - name: micro-ui
         image: azureaksregistry1.azurecr.io/todo-ui:v1
         ports:
         - containerPort: 80

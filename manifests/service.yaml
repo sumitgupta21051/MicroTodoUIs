@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: micro-UI
+  name: micro-ui
 spec:
   type: LoadBalancer
   selector:
-    app: micro-UI
+    app: micro-ui
   ports:
     - port: 80
       targetPort: 80
