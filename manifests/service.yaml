@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: get-tasks
+  name: micro-UI
 spec:
   type: LoadBalancer
   selector:
-    app: get-tasks
+    app: micro-UI
   ports:
     - port: 80
       targetPort: 8000

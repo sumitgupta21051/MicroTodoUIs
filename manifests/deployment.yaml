@@ -16,4 +16,4 @@ spec:
       - name: micro-UI
         image: azureaksregistry1.azurecr.io/todo-ui:v1
         ports:
-        - containerPort: 8000
+        - containerPort: 80
