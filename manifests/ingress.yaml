@@ -5,7 +5,7 @@ metadata:
   labels:
     app.kubernetes.io/name: myingress
 spec:
-  ingressClassNane: nginx
+  ingressClassName: nginx
   rules:
   - host: ui.devops-engineer-adda.store
     http:
