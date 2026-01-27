@@ -11,9 +11,9 @@ spec:
     http:
       paths:
       - pathType: Prefix
-        path: "/"
+        path: "/" # todo api root path p sunta h ..devloper can change
         backend:
           service:
             name: micro-ui
             port: 
-              number: 80
+              number: 80 #service ka port map krte h
