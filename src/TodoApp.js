@@ -8,7 +8,7 @@ import config from './config'; // Import the config file with environment variab
 // Use the config to define API URLs
 const GET_TASKS_API_BASE_URL = "http://gettask.devops-engineer-adda.store";
 const DELETE_TASK_API_BASE_URL = "http://deltask.devops-engineer-adda.store";
-const CREATE_TASK_API_BASE_URL = "http://gettask.devops-engineer-adda.store";
+const CREATE_TASK_API_BASE_URL = "http://addtask.devops-engineer-adda.store";
 
 //Update Task Functionality is Work In Progress
 // const UPDATE_TASK_API_BASE_URL = '';
