@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: micro-ui
-        image: acrrg1.azurecr.io/todo-ui:v4
+        image: acrrg1.azurecr.io/todo-ui:v5
         ports:
         - containerPort: 80

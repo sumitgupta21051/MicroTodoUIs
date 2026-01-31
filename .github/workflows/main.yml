@@ -13,7 +13,7 @@ permissions:
 
 env:
   IMAGE_NAME: todo-ui
-  IMAGE_TAG: v4
+  IMAGE_TAG: v5
   ACR_NAME: acrrg1
   ACR_LOGIN_SERVER: acrrg1.azurecr.io
 
